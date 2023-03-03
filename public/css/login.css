@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("https://wallpaper.dog/large/5445110.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f9f7f7;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    padding: 30px;
+  }
+  
+  h2 {
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 4px 0px 0px #000, 3px 0px 5px #fff;;
+    margin-bottom: 25px;
+    color:#fdfcfc
+  }
+  a {
+    color:#ddd
+  }
+  h3 {
+    font-size:large;
+    text-align: center;
+    margin-top: 15px;
+    color:#fdfcfc
+  }
+  h4 {
+    font-size:small;
+    text-align: center;
+    margin-top: 15px;
+    color:#faf8f8
+  }
+  
+  .form-control {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-shadow: 3px 0px 0px #000, 0px 0px 5px #fff;;
+    color:#ddd
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-bottom-color: #9b4dca;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #9b4dca;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #55058a;
+  }
